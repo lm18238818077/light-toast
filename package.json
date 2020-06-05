@@ -1,0 +1,30 @@
+{
+  "name": "umi-library",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "authors": {
+    "name": "8077",
+    "email": "254017072@qq.com"
+  },
+  "repository": "/umi-library",
+  "scripts": {
+    "dev": "father doc dev",
+    "build": "father build"
+  },
+  "peerDependencies": {
+    "react": "16.x",
+    "react-dom": "16.8.0"
+  },
+  "devDependencies": {
+    "father": "^2.16.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^4.3.1",
+    "classnames": "^2.2.6",
+    "rc-resize-observer": "^0.2.3",
+    "react-window": "^1.8.5"
+  }
+}

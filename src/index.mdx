@@ -1,0 +1,29 @@
+---
+name: Home
+route: /
+order: -1
+sidebar: true
+---
+
+import Toast from './';
+import {message} from 'antd';
+import { Playground, Props  } from 'docz';
+
+# Toast Component
+
+## Normal Toast
+
+<Playground>
+
+  <button
+    onClick={() => {
+      message.info('info')
+    }}
+  >
+    click me
+  </button>
+
+</Playground>
+
+
+
