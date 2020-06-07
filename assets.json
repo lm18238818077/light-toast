@@ -1,12 +1,12 @@
 {
-  "vendors.css": "/toast/static/css/vendors.5ea5ebe7abebd6e6a508.css",
-  "vendors.js": "/toast/static/js/vendors.eac12868.js",
-  "app.js": "/toast/static/js/app.5ea5ebe7abebd6e6a508.js",
-  "src-foo-index.js": "/toast/static/js/src-foo-index.3ae0ce21.js",
-  "src-toast-index.css": "/toast/static/css/src-toast-index.5ea5ebe7abebd6e6a508.css",
-  "src-toast-index.js": "/toast/static/js/src-toast-index.05b41367.js",
-  "index.html": "/toast/index.html",
-  "static/img/check.1c40a0c2.svg": "/toast/static/img/check.1c40a0c2.svg",
-  "static/img/close.396c8f72.svg": "/toast/static/img/close.396c8f72.svg",
-  "static/img/loading.6828beed.svg": "/toast/static/img/loading.6828beed.svg"
+  "vendors.css": "/library/static/css/vendors.bdd4dd9260b659b636fc.css",
+  "vendors.js": "/library/static/js/vendors.2967dc6c.js",
+  "app.js": "/library/static/js/app.bdd4dd9260b659b636fc.js",
+  "src-foo-index.js": "/library/static/js/src-foo-index.3ae0ce21.js",
+  "src-toast-index.css": "/library/static/css/src-toast-index.bdd4dd9260b659b636fc.css",
+  "src-toast-index.js": "/library/static/js/src-toast-index.05b41367.js",
+  "index.html": "/library/index.html",
+  "static/img/check.1c40a0c2.svg": "/library/static/img/check.1c40a0c2.svg",
+  "static/img/close.396c8f72.svg": "/library/static/img/close.396c8f72.svg",
+  "static/img/loading.6828beed.svg": "/library/static/img/loading.6828beed.svg"
 }
