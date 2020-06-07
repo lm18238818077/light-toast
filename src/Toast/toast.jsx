@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Icon from './icon';
 import eventManager from './event-manager';
-import styles from './style.css';
+import styles from './style.module.css';
 
 let timerId = -1;
 

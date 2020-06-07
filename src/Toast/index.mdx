@@ -1,29 +1,30 @@
 ---
-name: Home
+name: Toast
 route: /
 order: -1
 sidebar: true
 ---
 
 import Toast from './';
-import {message} from 'antd';
+import ToastLm from 'light-toast-lm';
 import { Playground, Props  } from 'docz';
 
 # Toast Component
 
 ## Normal Toast
 
-<Playground>
 
+<Playground>
   <button
+    type="primary"
     onClick={() => {
-      message.info('info')
+      ToastLm.info('info')
     }}
   >
-    click me
+    click lm
   </button>
-
 </Playground>
+
 
 
 

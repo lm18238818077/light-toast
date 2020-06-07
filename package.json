@@ -1,9 +1,13 @@
 {
-  "name": "umi-library",
+  "name": "light-toast-lm",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
   "authors": {
     "name": "8077",
     "email": "254017072@qq.com"
@@ -11,7 +15,9 @@
   "repository": "/umi-library",
   "scripts": {
     "dev": "father doc dev",
-    "build": "father build"
+    "build": "father build",
+    "doc:build": "father doc build",
+    "doc:deploy": "father doc deploy"
   },
   "peerDependencies": {
     "react": "16.x",
@@ -24,7 +30,6 @@
   "dependencies": {
     "antd": "^4.3.1",
     "classnames": "^2.2.6",
-    "rc-resize-observer": "^0.2.3",
-    "react-window": "^1.8.5"
+    "light-toast-lm": "^0.0.1"
   }
 }

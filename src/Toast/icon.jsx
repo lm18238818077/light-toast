@@ -2,7 +2,7 @@ import React from 'react';
 import { ReactComponent as Success } from './svg/check.svg';
 import { ReactComponent as Loading } from './svg/loading.svg';
 import { ReactComponent as Fail } from './svg/close.svg';
-import styles from './style.css';
+import styles from './style.module.css';
 
 const icons = {
   fail: <Fail fill="#fff"></Fail>,

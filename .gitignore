@@ -2,4 +2,5 @@
 /package-lock.json
 /dist
 /.docz
+/.doc
 /node_modules
