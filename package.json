@@ -1,5 +1,5 @@
 {
-  "name": "light-toast-lm",
+  "name": "light-toast",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -12,7 +12,7 @@
     "name": "8077",
     "email": "254017072@qq.com"
   },
-  "repository": "/umi-library",
+  "repository": "/light-toast",
   "scripts": {
     "dev": "father doc dev",
     "build": "father build",

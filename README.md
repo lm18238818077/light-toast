@@ -1,6 +1,20 @@
-# 开发一个组件库
+# 利用 umi-library（father） 做组件打包。
 >本文的目标是带你开发一个组件库，并走通开发、测试、文档、打包还有发布流程。
 [参考链接](https://github.com/clock157/blog/issues/1)
+
+## Features
+
+* ✔︎ 基于 [docz](https://www.docz.site/) 的文档功能
+* ✔︎ 基于 [rollup](http://rollupjs.org/) 和 babel 的组件打包功能
+* ✔︎ 支持 TypeScript
+* ✔︎ 支持 cjs、esm 和 umd 三种格式的打包
+* ✔︎ esm 支持生成 mjs，直接为浏览器使用
+* ✔︎ 支持用 babel 或 rollup 打包 cjs 和 esm
+* ✔︎ 支持多 entry
+* ✔︎ 支持 lerna
+* ✔︎ 支持 css 和 less，支持开启 css modules
+* ✔︎ 支持 test
+* ✔︎ 支持用 prettier 和 eslint 做 pre-commit 检查
 
 ##准备环境
 > 创建目录
