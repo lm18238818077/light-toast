@@ -1,12 +1,12 @@
 {
-  "vendors.css": "/library/static/css/vendors.bdd4dd9260b659b636fc.css",
-  "vendors.js": "/library/static/js/vendors.2967dc6c.js",
-  "app.js": "/library/static/js/app.bdd4dd9260b659b636fc.js",
-  "src-foo-index.js": "/library/static/js/src-foo-index.3ae0ce21.js",
-  "src-toast-index.css": "/library/static/css/src-toast-index.bdd4dd9260b659b636fc.css",
-  "src-toast-index.js": "/library/static/js/src-toast-index.05b41367.js",
-  "index.html": "/library/index.html",
-  "static/img/check.1c40a0c2.svg": "/library/static/img/check.1c40a0c2.svg",
-  "static/img/close.396c8f72.svg": "/library/static/img/close.396c8f72.svg",
-  "static/img/loading.6828beed.svg": "/library/static/img/loading.6828beed.svg"
+  "vendors.css": "/light-toast/static/css/vendors.e9566488a7c4e92bb2cf.css",
+  "vendors.js": "/light-toast/static/js/vendors.f064f696.js",
+  "app.js": "/light-toast/static/js/app.e9566488a7c4e92bb2cf.js",
+  "src-foo-index.js": "/light-toast/static/js/src-foo-index.3ae0ce21.js",
+  "src-toast-index.css": "/light-toast/static/css/src-toast-index.e9566488a7c4e92bb2cf.css",
+  "src-toast-index.js": "/light-toast/static/js/src-toast-index.05b41367.js",
+  "index.html": "/light-toast/index.html",
+  "static/img/check.1c40a0c2.svg": "/light-toast/static/img/check.1c40a0c2.svg",
+  "static/img/close.396c8f72.svg": "/light-toast/static/img/close.396c8f72.svg",
+  "static/img/loading.6828beed.svg": "/light-toast/static/img/loading.6828beed.svg"
 }
