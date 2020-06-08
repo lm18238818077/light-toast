@@ -1,7 +1,7 @@
 {
-  "name": "light-toast",
-  "version": "0.0.1",
-  "description": "",
+  "name": "light-toast-lm",
+  "version": "0.0.3",
+  "description": "轻量级提示",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.umd.js",
@@ -9,7 +9,7 @@
     "dist"
   ],
   "authors": {
-    "name": "8077",
+    "name": "lm18238818077",
     "email": "254017072@qq.com"
   },
   "repository": "/light-toast",
@@ -27,9 +27,5 @@
     "father": "^2.16.0"
   },
   "license": "MIT",
-  "dependencies": {
-    "antd": "^4.3.1",
-    "classnames": "^2.2.6",
-    "light-toast-lm": "^0.0.1"
-  }
+  "dependencies": {}
 }
