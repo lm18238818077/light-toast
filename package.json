@@ -15,6 +15,7 @@
   "repository": "/light-toast",
   "scripts": {
     "dev": "father doc dev",
+    "test": "father test",
     "build": "father build",
     "doc:build": "father doc build",
     "doc:deploy": "father doc deploy"

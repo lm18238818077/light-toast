@@ -9,12 +9,12 @@
   <script src="../dist/index.umd.js"></script>
 </head>
 <body>
-  <div id="root"></div>
   <div id="toast">toast</div>
 </body>
 </html>
 <script>
-  var toast = window.foo
+  var toast = window.toast
+  console.log(toast)
   document.getElementById('toast').onclick = function() {
     toast.loading('loading')
     setTimeout(function(){

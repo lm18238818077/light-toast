@@ -30,14 +30,21 @@
 
 组件开发测试完成后，需要打包成不同的产物以适应不同的场景。默认使用 `rollup` 打包生成三个格式的包:
 
-- cjs: CommonJs，能被 Node 和 打包工具如 webpack 使用。
-- esm: ES Module，支持静态分析可以 tree shaking。
+- cjs: CommonJs，es5,能被 Node 和 打包工具如 webpack 使用。
+- esm: ES Module，es6,支持静态分析可以 tree shaking。
 - umd: Universal Module Definition 通用包，既能像 cjs 一样被使用，也可以发布到 cdn，通过 script 的方式被浏览器使用。
+
+yarn publish 发布组件
+基于 mdx，你可以使用 markdown 加 jsx 语法来组织文档。
 
 使用命令
 
 yarn doc:build 
 yarn doc:deploy 发布组件文档
+
+umi-library 默认将文档部署到`github.io`, url 规则是 https://{yourname}.github.io/{your-repo}，我们需要修改 .fatherrc.js 配置一下文档静态资源的前缀base。
+
+
 
 
 

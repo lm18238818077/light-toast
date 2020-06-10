@@ -1,11 +1,10 @@
 export default {
-  entry: ['src/Toast','src/Foo'],
   cjs: 'rollup',
   esm: 'rollup',
   umd: {
-    name: 'foo'
+    name: 'toast'
   },
   doc: {
-    base: '/library'
+    base: '/light-toast'
   }
 }
