@@ -18,7 +18,7 @@
     "test": "father test",
     "build": "father build",
     "doc:build": "father doc build",
-    "doc:deploy": "father doc deploy"
+    "doc:deploy": "npm run doc:build && father doc deploy"
   },
   "peerDependencies": {
     "react": "16.x",

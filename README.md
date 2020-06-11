@@ -18,13 +18,13 @@
 
 ##准备环境
 > 创建目录
-> mkdir umi-library-demo && cd     umi-library-demo
->初始化
-> yarn create umi --library
->安装依赖
-> yarn
->yarn run dev
->浏览器访问 http://127.0.0.1:8001/  即可看到我们的组件开发环境。
+mkdir umi-library-demo && cd     umi-library-demo
+初始化
+yarn create umi --library
+安装依赖
+ yarn
+yarn run dev
+浏览器访问 http://127.0.0.1:8001/  即可看到我们的组件开发环境。
 
 ## 组件打包
 
@@ -34,10 +34,23 @@
 - esm: ES Module，es6,支持静态分析可以 tree shaking。
 - umd: Universal Module Definition 通用包，既能像 cjs 一样被使用，也可以发布到 cdn，通过 script 的方式被浏览器使用。
 
-yarn publish 发布组件
-基于 mdx，你可以使用 markdown 加 jsx 语法来组织文档。
+## 发布组件
+```
+  "name": "light-toast-lm",
+  "version": "0.0.3",
+  "description": "轻量级提示",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "unpkg": "dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
+  ```
+yarn publish
 
+##发布组件文档
 使用命令
+基于 mdx，你可以使用 markdown 加 jsx 语法来组织文档。
 
 yarn doc:build 
 yarn doc:deploy 发布组件文档
